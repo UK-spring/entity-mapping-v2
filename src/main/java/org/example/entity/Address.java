@@ -12,5 +12,8 @@ public class Address {
 
     private String name;
 
+    // 읽기 전용
+//    @OneToOne(mappedBy = "address")
+//    private Tutor tutor;
 
 }
